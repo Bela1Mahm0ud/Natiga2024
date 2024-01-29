@@ -1,0 +1,293 @@
+body {
+    background-image: url("../img/_cdb93b42-89a9-4600-b1a0-f0561d827997.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data {
+    background-color: rgb(142, 227, 241) !important;
+    height: 200px !important;
+}
+
+.card {
+    background-color: rgb(236, 234, 230);
+    box-shadow: 10px;
+    height: 110px;
+}
+
+.Koli {
+    background-color: rgb(163, 238, 153);
+}
+
+.latodaf {
+    background-color: rgb(252, 186, 186);
+}
+
+.Sub {
+    font-size: 27px;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    color: brown;
+}
+
+.address {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total,
+.text-muted {
+    color: aqua;
+    font-size: 18px;
+}
+
+h4 {
+    align-items: center;
+}
+
+.btn-color {
+    background-color: #0e1c36;
+    color: #fff;
+
+}
+
+.profile-image-pic {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.cardbody-color {
+    background-color: #ebf2fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    direction: rtl;
+    justify-content: center;
+
+}
+
+.container {
+    justify-content: center;
+
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+}
+
+.dis {
+    display: flex;
+    line-height: 30px;
+    justify-content: space-between;
+}
+
+
+
+.tahzer {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}
+
+.Eng {
+    text-align: center;
+    direction: ltr;
+}
+
+.nam {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table {
+    text-align: center;
+    border: steelblue;
+    border: 5px;
+    border: 1px solid black !important;
+}
+
+.top {
+    background-color: black;
+    color: aliceblue;
+}
+
+tr td:first-child {
+    font-weight: bold;
+}
+
+.kole td {
+    background-color: rgb(0, 255, 64) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.hala td {
+    background-color: rgb(0, 0, 255) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.contain {
+    width: 60%;
+
+}
+
+.header {
+    font-weight: 900;
+    font-size: 20px;
+    color: #c6008e;
+}
+
+.raese {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab {
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ta {
+    width: 60%;
+}
+
+.png {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    line-height: 20px;
+}
+
+
+.tahn {
+    font-size: 50px;
+    font-weight: 900;
+    color: steelblue;
+}
+
+.print-button {
+    background-color: #00eeff;
+    color: rgb(255, 0, 0);
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+
+}
+
+.print-button:hover {
+    background-color: #c4fbff;
+    color: rgb(122, 5, 255);
+    box-shadow: 5px aqua;
+
+}
+
+.th {
+    color: rgb(0, 0, 0) !important;
+}
+
+@media print {
+
+    body,
+    html {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+    }
+
+    .tahzer {
+        font-size: 15px;
+        font-weight: 300;
+        color: red;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .Eng {
+        display: none;
+    }
+
+    .nam p {
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 20%;
+    }
+
+    .tahn {
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+    }
+
+    .text {
+        font-size: 15px;
+        font-weight: 900;
+        font-style: italic;
+        text-align: center;
+        line-height: 15px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        line-height: 10px;
+    }
+
+    .png {
+        width: 100px;
+        height: 100px;
+    }
+
+    .one {
+        margin-left: 350px;
+    }
+
+    .table {
+        text-align: center;
+        border: 1px solid black !important;
+        line-height: 15px;
+    }
+
+    table tr * {
+        font-size: 10px;
+    }
+
+    .contain {
+        width: 90%;
+    }
+
+    .top {
+        color: rgb(0, 0, 0);
+    }
+}
